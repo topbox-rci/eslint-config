@@ -8,6 +8,7 @@ module.exports = {
         'no-var': 0,
         'object-shorthand': 0,
         'prefer-arrow-callback': 0,
+        'prefer-rest-params': 0,
         'prefer-template': 0,
         strict: 0
     }
