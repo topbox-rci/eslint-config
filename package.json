@@ -1,6 +1,6 @@
 {
     "name": "@topbox-rci/eslint-config",
-    "version": "0.3.0",
+    "version": "1.0.0",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",
@@ -10,7 +10,7 @@
         "configs"
     ],
     "scripts": {
-        "test": "eslint ./test/es6/test.js && eslint *.json"
+        "test": "eslint ./test/es6/test.js && eslint ./test/react/test.js && eslint *.json"
     },
     "devDependencies": {
         "eslint": "3.10.0",
