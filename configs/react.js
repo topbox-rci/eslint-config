@@ -15,7 +15,7 @@ module.exports = {
         'react/no-unknown-property': 'error',
         'react/react-in-jsx-scope': 'error',
         'react/self-closing-comp': 'error',
-        'react/wrap-multilines': 'error',
+        'react/jsx-wrap-multilines': 'error',
         'no-extra-parens': 'off',
         'react/display-name': 'error',
         'react/prefer-stateless-function': 'error',
