@@ -11,6 +11,7 @@ class Developer extends Person {
         super(name, age);
         this.languages = [...languages];
     }
+
     printLanguages() {
         return this.languages;
     }
