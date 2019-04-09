@@ -20,7 +20,7 @@ module.exports = {
     rules: {
         'comma-dangle': ['error', 'never'],
         'handle-callback-err': 'error',
-        indent: [2, 4],
+        indent: [2, 4, { 'ignoredNodes': ['JSXElement *'] }],
         'one-var': ['error', { uninitialized: 'always', initialized: 'never' }],
         'one-var-declaration-per-line': ['error', 'initializations'],
         'max-len': 'off',
