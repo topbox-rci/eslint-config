@@ -15,12 +15,21 @@ module.exports = {
         'react/no-unknown-property': 'error',
         'react/react-in-jsx-scope': 'error',
         'react/self-closing-comp': 'error',
-        'react/wrap-multilines': 'error',
+        'react/jsx-wrap-multilines': 'error',
         'no-extra-parens': 'off',
         'react/display-name': 'error',
         'react/prefer-stateless-function': 'error',
         'react/jsx-boolean-value': ['error', 'always'],
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-        'react/prop-types': 'off'
+        'react/prop-types': 'off',
+        'react/sort-comp': [2, {
+            order: [
+                'static-methods',
+                'instance-variables',
+                'lifecycle',
+                'everything-else',
+                'render'
+            ]
+        }]
     }
 };
