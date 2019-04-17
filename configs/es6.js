@@ -21,6 +21,7 @@ module.exports = {
         'comma-dangle': [0, 'never'],
         'handle-callback-err': 0,
         indent: [2, 4, { 'ignoredNodes': ['JSXElement *', 'JSXElement'] }],
+        'lines-between-class-members': 0,
         'object-curly-newline': 0,
         'one-var': [0, { uninitialized: 'always', initialized: 'never' }],
         'one-var-declaration-per-line': [0, 'initializations'],
