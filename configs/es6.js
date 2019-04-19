@@ -19,7 +19,10 @@ module.exports = {
     ],
     rules: {
         'comma-dangle': [2, 'never'],
+        'function-paren-newline': 0, // up for consideration
         'handle-callback-err': 2,
+        'implicit-arrow-linebreak': 0, // up for consideration
+        'import/no-cycle': 0, // up for consideration
         indent: [2, 4, { 'ignoredNodes': ['JSXElement *', 'JSXElement'] }],
         'lines-between-class-members': 0,
         'object-curly-newline': 0,
@@ -30,6 +33,7 @@ module.exports = {
         'max-len': 'off',
         'new-cap': 2,
         'no-console': 2,
+        'no-else-return': 0, // up for consideration
         'no-return-assign': 0,
         'no-restricted-globals': 0, // up for consideration
         'no-self-compare': 2,
