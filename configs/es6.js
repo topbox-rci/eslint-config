@@ -33,6 +33,6 @@ module.exports = {
         'no-return-assign': 0,
         'no-restricted-globals': 0, // up for consideration
         'no-self-compare': 2,
-        yoda: [2, 'always']
+        yoda: 0
     }
 };
