@@ -13,7 +13,7 @@ module.exports = {
         'react/jsx-curly-brace-presence': 0,
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
         'react/jsx-key': 'error',
-        'react/jsx-no-duplicate-props': 0,
+        'react/jsx-no-duplicate-props': 2,
         'react/jsx-no-undef': 'error',
         'react/jsx-no-bind': 'error',
         'react/jsx-one-expression-per-line': 0,
