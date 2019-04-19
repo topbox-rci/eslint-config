@@ -18,21 +18,21 @@ module.exports = {
         'json'
     ],
     rules: {
-        'comma-dangle': [0, 'never'],
-        'handle-callback-err': 0,
+        'comma-dangle': [2, 'never'],
+        'handle-callback-err': 2,
         indent: [2, 4, { 'ignoredNodes': ['JSXElement *', 'JSXElement'] }],
         'lines-between-class-members': 0,
         'object-curly-newline': 0,
         'one-var': [0, { uninitialized: 'always', initialized: 'never' }],
-        'one-var-declaration-per-line': [0, 'initializations'],
+        'one-var-declaration-per-line': [2, 'initializations'],
         'operator-linebreak': 0,
         'prefer-destructuring': 0, // up for consideration
         'max-len': 'off',
-        'new-cap': 0,
-        'no-console': 0,
+        'new-cap': 2,
+        'no-console': 2,
         'no-return-assign': 0,
         'no-restricted-globals': 0, // up for consideration
-        'no-self-compare': 0,
-        yoda: [0, 'always']
+        'no-self-compare': 2,
+        yoda: 0
     }
 };
