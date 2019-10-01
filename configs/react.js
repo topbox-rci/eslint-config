@@ -33,6 +33,7 @@ module.exports = {
         'react/self-closing-comp': 'error',
         'react/sort-comp': [1, {
             order: [
+                'defaultProps',
                 'static-methods',
                 'instance-variables',
                 'lifecycle',
