@@ -20,7 +20,7 @@ module.exports = {
         'react/jsx-pascal-case': 'error',
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
-        'react/jsx-wrap-multilines': [2, { prop: 'ignore', arrow: 'ignore' } ],
+        'react/jsx-wrap-multilines': [2, { prop: 'ignore', arrow: 'ignore' }],
         'react/no-access-state-in-setstate': 0, // up for heavy consideration
         'react/no-array-index-key': 0, // up for consideration
         'react/no-is-mounted': 'error',
@@ -31,7 +31,7 @@ module.exports = {
         'react/react-in-jsx-scope': 'error',
         'react/require-default-props': 0, // up for consideration
         'react/self-closing-comp': 'error',
-        'react/sort-comp': [2, {
+        'react/sort-comp': [1, {
             order: [
                 'static-methods',
                 'instance-variables',
