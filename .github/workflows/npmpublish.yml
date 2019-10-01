@@ -16,7 +16,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: echo ${{github.ref}}
       - run: npm ci
       - run: npm test
 
@@ -31,6 +30,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@topbox-rci'
       - run: npm publish
-        if: github.ref == 'master'
+        if: github.ref == 'refs/heads/master'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
