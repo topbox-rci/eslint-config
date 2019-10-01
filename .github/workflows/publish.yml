@@ -1,25 +1,13 @@
-name: Node.js Package
+name: Tag and Package
 
 on:
-  pull_request:
-    branches:
-      - master
   push:
     branches:
       - master
+      - version_tagging
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm ci
-      - run: npm test
-
-  publish-gpr:
+  publish:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -30,13 +18,11 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@topbox-rci'
       - name: tag new version if merged into master
-        if: github.ref == 'refs/heads/master'
         run: |
           VERSION_TAG=v$(jq -r .version package.json)
           git tag $VERSION_TAG
           HEADER=$(echo -n "ad-m:${{secrets.GITHUB_TOKEN}}" | base64)
           git -c http.extraheader="AUTHORIZATION: basic $HEADER" push origin $VERSION_TAG
       - run: npm publish
-        if: github.ref == 'refs/heads/master'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
