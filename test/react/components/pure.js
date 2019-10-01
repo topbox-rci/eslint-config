@@ -5,6 +5,10 @@ export default class Pure extends PureComponent {
         boop: 'hi'
     };
 
+    static propTypes = {
+        thing: 'x'
+    }
+
     helloText = 'hello world';
     somethignElse = {};
 
@@ -17,8 +21,9 @@ export default class Pure extends PureComponent {
     }
 
     render() {
+        const { thing } = this.props;
         return (
-          <div />
+          <div>{thing}</div>
         );
     }
 }
