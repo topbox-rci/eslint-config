@@ -30,5 +30,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@topbox-rci'
       - run: npm publish
+        if: github.ref == 'master'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
