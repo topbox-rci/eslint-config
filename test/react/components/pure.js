@@ -23,7 +23,7 @@ export default class Pure extends PureComponent {
     render() {
         const { thing } = this.props;
         return (
-          <div>{thing}</div>
+          <div yes>{thing}</div>
         );
     }
 }

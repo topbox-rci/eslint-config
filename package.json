@@ -1,6 +1,6 @@
 {
     "name": "@topbox-rci/eslint-config",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",
