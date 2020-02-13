@@ -9,7 +9,7 @@ module.exports = {
         'react/default-props-match-prop-types': 0, // up for consideration
         'react/destructuring-assignment': 0, // up for consideration
         'react/display-name': 'error',
-        'react/jsx-boolean-value': ['error', 'always'],
+        'react/jsx-boolean-value': 0,
         'react/jsx-curly-brace-presence': 0,
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
         'react/jsx-key': 'error',
