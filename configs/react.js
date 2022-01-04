@@ -41,6 +41,9 @@ module.exports = {
                 'everything-else',
                 'render'
             ]
-        }]
+        }],
+        'react/function-component-definition': 0,
+        'react/static-property-placement': 0,
+        'react/no-unused-class-component-methods': 1
     }
 };
