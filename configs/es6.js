@@ -4,7 +4,7 @@ module.exports = {
         es6: true,
         node: true
     },
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
     parserOptions: {
         ecmaVersion: 6,
         sourceType: 'module'
@@ -23,7 +23,7 @@ module.exports = {
         'handle-callback-err': 2,
         'implicit-arrow-linebreak': 0, // up for consideration
         'import/no-cycle': 0, // up for consideration
-        indent: [2, 4, { 'ignoredNodes': ['JSXElement *', 'JSXElement'] }],
+        indent: [2, 4, { ignoredNodes: ['JSXElement *', 'JSXElement'] }],
         'lines-between-class-members': 0,
         'object-curly-newline': 0,
         'one-var': [0, { uninitialized: 'always', initialized: 'never' }],
@@ -37,6 +37,7 @@ module.exports = {
         'no-return-assign': 0,
         'no-restricted-globals': 0, // up for consideration
         'no-self-compare': 2,
-        yoda: 0
+        yoda: 0,
+        'max-classes-per-file': 0
     }
 };

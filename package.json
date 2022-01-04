@@ -18,12 +18,14 @@
         "react-dom": "^17.0.2"
     },
     "dependencies": {
-        "babel-eslint": "^10.1.0",
+        "@babel/core": "^7.16.5",
+        "@babel/eslint-parser": "^7.16.5",
+        "babel-preset-airbnb": "^5.0.0",
         "eslint": "^8.5.0",
-        "eslint-config-airbnb": "^17.1.1",
-        "eslint-config-airbnb-base": "^13.2.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-json": "^1.4.0",
-        "eslint-plugin-react": "^7.15.1"
+        "eslint-config-airbnb": "^19.0.2",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-json": "^3.1.0",
+        "eslint-plugin-react": "^7.28.0"
     }
 }

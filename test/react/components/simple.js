@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default function Simple() {
+function Simple() {
     return (
       <div />
     );
 }
+
+export default Simple;

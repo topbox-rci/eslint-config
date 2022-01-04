@@ -7,7 +7,7 @@ export default class Pure extends PureComponent {
 
     static propTypes = {
         thing: 'x'
-    }
+    };
 
     helloText = 'hello world';
     somethignElse = {};
