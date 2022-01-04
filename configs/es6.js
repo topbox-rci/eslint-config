@@ -38,6 +38,7 @@ module.exports = {
         'no-restricted-globals': 0, // up for consideration
         'no-self-compare': 2,
         yoda: 0,
-        'max-classes-per-file': 0
+        'max-classes-per-file': 0,
+        'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }]
     }
 };
