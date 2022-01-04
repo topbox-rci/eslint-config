@@ -44,6 +44,6 @@ module.exports = {
         }],
         'react/function-component-definition': 0,
         'react/static-property-placement': 0,
-        'react/no-unused-class-component-methods': 0
+        'react/no-unused-class-component-methods': 1
     }
 };
