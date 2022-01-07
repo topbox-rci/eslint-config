@@ -44,6 +44,10 @@ module.exports = {
         }],
         'react/function-component-definition': 0,
         'react/static-property-placement': 0,
-        'react/no-unused-class-component-methods': 1
+        'react/no-unused-class-component-methods': 1,
+        'react/jsx-curly-newline': 0,
+        'react/state-in-constructor': 0,
+        'class-methods-use-this': 0,
+        'react/jsx-props-no-spreading': 0
     }
 };
