@@ -23,7 +23,7 @@ module.exports = {
         'handle-callback-err': 2,
         'implicit-arrow-linebreak': 0, // up for consideration
         'import/no-cycle': 0, // up for consideration
-        indent: [2, 4, { ignoredNodes: ['JSXElement *', 'JSXElement'] }],
+        indent: [2, 4, { ignoredNodes: ['JSXElement *', 'JSXElement', 'JSXFragment'] }],
         'lines-between-class-members': 0,
         'object-curly-newline': 0,
         'one-var': [0, { uninitialized: 'always', initialized: 'never' }],
@@ -39,6 +39,15 @@ module.exports = {
         'no-self-compare': 2,
         yoda: 0,
         'max-classes-per-file': 0,
-        'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }]
+        'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
+        'no-multiple-empty-lines': 0,
+        'func-names': 0,
+        'object-shorthand': 0,
+        'prefer-arrow-callback': 1,
+        'prefer-template': 0,
+        'import/no-import-module-exports': 0,
+        'function-call-argument-newline': 0,
+        'default-param-last': 1, // trying out for consideration
+        'class-methods-use-this': 0
     }
 };
