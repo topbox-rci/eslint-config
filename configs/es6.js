@@ -23,7 +23,7 @@ module.exports = {
         'handle-callback-err': 2,
         'implicit-arrow-linebreak': 0, // up for consideration
         'import/no-cycle': 0, // up for consideration
-        indent: [2, 4, { ignoredNodes: ['JSXElement *', 'JSXElement'] }],
+        indent: [2, 4, { ignoredNodes: ['JSXElement *', 'JSXElement', 'JSXFragment'] }],
         'lines-between-class-members': 0,
         'object-curly-newline': 0,
         'one-var': [0, { uninitialized: 'always', initialized: 'never' }],
