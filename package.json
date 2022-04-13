@@ -1,6 +1,6 @@
 {
     "name": "@topbox-rci/eslint-config",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",
@@ -18,13 +18,13 @@
         "react-dom": "^17.0.2"
     },
     "dependencies": {
-        "@babel/core": "^7.16.5",
+        "@babel/core": "^7.17.9",
         "@babel/eslint-parser": "^7.16.5",
         "babel-preset-airbnb": "^5.0.0",
-        "eslint": "^8.5.0",
+        "eslint": "^8.13.0",
         "eslint-config-airbnb": "^19.0.2",
         "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-json": "^3.1.0",
         "eslint-plugin-react": "^7.28.0"
     }
